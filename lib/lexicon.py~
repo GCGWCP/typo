@@ -49,7 +49,6 @@ class EnAlphabet:
             self.dec_digits_string + self.special_chars_string
 
         self.lc_alpha_by_freq = "etaoinshrlducmwyfgpbvkjxqz"
-	self.first_letter_by_freq = "tashwlobmfcldpnegryuvjkqxz"
         self.uc_alpha_by_freq = self.lc_alpha_by_freq.swapcase()
 
         self.common_bigrams_by_freq = []
